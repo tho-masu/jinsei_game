@@ -1,0 +1,169 @@
+body{
+	background-size: cover;
+}
+
+.box29 {
+	position: absolute;
+	top:3%;
+	bottom:0;
+	left: 65%;
+	right:5%;
+	height:85%;
+	width:33%;
+    margin: 2em 0;
+    background: #dcefff;
+}
+.box29 .box-title {
+    font-size: 1.2em;
+    background: #5fb3f5;
+    padding: 4px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box29 p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.box26 {
+    position: absolute;
+    top:12%;
+    left:5%;
+    width:30%;
+    padding: 5%;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #dcefff;
+    color: black;
+    font-weight: bold;
+    text-align:center
+}
+.box26 p {
+	text-align:center;
+    margin: 0;
+    padding: 0;
+}
+.box27 {
+    position: absolute;
+    top:12%;
+    left:55%;
+    width:30%;
+    padding: 5%;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box27 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #dcefff;
+    color: black;
+    font-weight: bold;
+    text-align:center
+}
+.box27 p {
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+.box28 {
+    position: absolute;
+    top:30%;
+    left:5%;
+    width:80%;
+    height:10%;
+    padding: 5%;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #dcefff;
+    color: black;
+    font-weight: bold;
+    text-align:center
+}
+.box28 .money {
+	text-align:left;
+	font-size:40px;
+	margin-top:-5%;
+    padding: 0;
+}
+.box28 .final_bet {
+	font-size:20px;
+    left:30%;
+    margin-top:-2%;
+    padding: 0;
+}
+h1 {
+  position:relative;
+  margin-top:2%;
+  margin-left:-12%;
+  font-size:120px;
+  color: #ffff00;
+  -webkit-text-stroke: 5px #ffa500;
+}
+/*.back{
+	position:absolute;
+	width:60%;
+	height:45%;
+	top:52%;
+	left:5%;
+	background-color:#FFF;
+    border : solid 1px #b3b3b3 ;
+    border-top : solid 1px #717171 ;
+    border-bottom : solid 1px #e0e0e0 ;
+    box-shadow : 0 1px 2px rgba(100, 100, 100, 0.3)inset ;
+}*/
+.hito img{
+	position:absolute;
+	height:220px;
+	width:auto;
+	top:53%;
+	left:15%;
+}
+.button {
+  position:relative;
+  margin-top:96%;
+  left:71%;
+  font-size: 30px;
+  position: relative;
+  width: 25%;
+  background-color: #f7d034;
+  border-radius: 4px;
+  color: #000;
+  line-height: 52px;
+  -webkit-transition: none;
+  transition: none;
+  box-shadow: 0 3px 0 #f7ba59;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+.button:hover {
+  top: -4px;
+  box-shadow: 0 7px 0 #f7ba59;
+}
+.button:active {
+  top: 3px;
+  box-shadow: none;
+}

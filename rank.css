@@ -1,0 +1,156 @@
+table{
+  width: 80%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th,table td{
+  padding: 10px 0;
+  text-align: center;
+}
+
+.rank tr:nth-child(2n+0) {
+	background: #FFCCFF;
+}
+.rank tr:nth-child(2n+1) {
+	background: #FFBBFF;
+}
+
+.ranking {
+	background: -webkit-repeating-linear-gradient(-45deg, #f5edfd, #f5edfd 5px, #fdfcff 5px, #fdfcff 10px);
+    background: repeating-linear-gradient(-45deg, #f5edfd, #f5edfd 5px, #fdfcff 5px, #fdfcff 10px);
+    color: #4a1086;
+   	font-size: 20px
+
+}
+.group{
+	font-size: 1em;
+	color:purple;
+}
+
+#menu {
+  position: absolute;
+  top: 4.5%;
+  left:24.5%;
+  width:800px;
+  padding:0;
+  margin:0;
+  list-style-type: none;
+}
+#menu li {
+  width:20%;
+  float:left;
+  padding:0;
+  margin:0;
+  text-align:center;
+}
+#menu li a {
+  width:auto;
+  color:#fff;
+  font-size:15px;
+  font-weight:bold;
+  text-shadow:0 -1px 0px #333,0 1px 0px #555;
+  padding:10px 0;
+  text-decoration:none;
+  display:block;
+  background:#666;
+  background-image: -moz-linear-gradient(top, #888 0%, #777 50%, #666 50%, #777 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #888), color-stop(0.50, #777), color-stop(0.50, #666), color-stop(1, #777));
+  border-left:1px solid #444;
+  box-shadow: 1px 0px 0px rgba(225,225,225,0.3) inset,
+			 -1px 0px 0px rgba(225,225,225,0.3) inset,
+			  0px 1px 1px rgba(0,0,0,0.1) inset,
+			  0px -1px 1px rgba(0,0,0,0.3) inset,
+			  0px 1px 3px #666;
+}
+#menu li:first-child a{
+  border-left:0px;
+  border-radius:5px 0 0 5px;
+  border-left:0;
+  box-shadow:-1px 0px 0px rgba(225,225,225,0.3) inset,
+			  0px 1px 1px rgba(0,0,0,0.1) inset,
+			  0px -1px 1px rgba(0,0,0,0.3) inset,
+			  0px 1px 3px #666;
+}
+#menu li:last-child a{
+  border-radius:0 5px 5px 0;
+  box-shadow: 1px 0px 0px rgba(225,225,225,0.3) inset,
+			  0px 1px 1px rgba(0,0,0,0.1) inset,
+			  0px -1px 1px rgba(0,0,0,0.3) inset,
+			  0px 1px 3px #666;
+}
+#menu li a:hover {
+  background:#555;
+  background-image: -moz-linear-gradient(top, #555 0%, #444 50%, #333 50%, #444 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #555), color-stop(0.50, #444), color-stop(0.50, #333), color-stop(1, #444));
+  box-shadow: 1px 0px 0px rgba(225,225,225,0) inset,
+			 -1px 0px 0px rgba(225,225,225,0) inset,
+			  0px 1px 1px rgba(0,0,0,0.1) inset,
+			  0px -1px 1px rgba(0,0,0,0.3) inset,
+			  0px 1px 3px #666;
+}
+
+.button {
+  display: inline-block;
+  padding: .65em 4em;
+  background: -webkit-linear-gradient(#fe5f95 , #ff3f7f);
+  background: linear-gradient(#fe5f95 , #ff3f7f);
+  border: 1px solid #fe3276;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.button:hover {
+  -webkit-animation: bounce 2s ease-in-out;
+  animation: bounce 2s ease-in-out;
+}
+@-webkit-keyframes bounce {
+  5%  { -webkit-transform: scale(1.1, .8); }
+  10% { -webkit-transform: scale(.8, 1.1) translateY(-5px); }
+  15% { -webkit-transform: scale(1, 1); }
+}
+@keyframes bounce {
+  5%  { transform: scale(1.1, .8); }
+  10% { transform: scale(.8, 1.1) translateY(-5px); }
+  15% { transform: scale(1, 1); }
+}
+.jinsei_game_min{
+  position: absolute;
+  left: 2%;
+  top: 4.5%;
+}
+.next {
+  font-size: 20px;
+  text-align:center;
+  position: relative;
+  width: 15%;
+  left:43%;
+  margin-top:2%;
+  background-color: #f7d034;
+  border-radius: 4px;
+  color: #000;
+  line-height: 52px;
+  -webkit-transition: none;
+  transition: none;
+  box-shadow: 0 3px 0 #f7ba59;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+.next:hover {
+  top: -4px;
+  box-shadow: 0 7px 0 #f7ba59;
+}
+.next:active {
+  top: 3px;
+  box-shadow: none;
+}
+a {
+  text-decoration: none;
+  color:black;
+  }
+.delete{
+	background-color:red;
+	color:#FFF;
+}

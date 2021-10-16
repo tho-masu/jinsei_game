@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    version="2.5">
+
+
+    <servlet>
+        <servlet-name>jinseiS</servlet-name>
+        <servlet-class>game.JinseiGame</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jinseiS</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>startS</servlet-name>
+        <servlet-class>game.Start</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>startS</servlet-name>
+        <url-pattern>/start</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>selectS</servlet-name>
+        <servlet-class>database.SelectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>selectS</servlet-name>
+        <url-pattern>/select</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>eventToMainS</servlet-name>
+        <servlet-class>game.EventToMain</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>eventToMainS</servlet-name>
+        <url-pattern>/event_to_main</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>statusControlS</servlet-name>
+        <servlet-class>game.StatusControl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>statusControlS</servlet-name>
+        <url-pattern>/status_control</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>checkAllGameOverS</servlet-name>
+        <servlet-class>game.CheckAllGameOver</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkAllGameOverS</servlet-name>
+        <url-pattern>/check_all_game_over</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>finalStatusControlS</servlet-name>
+        <servlet-class>game.FinalStatusControl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>finalStatusControlS</servlet-name>
+        <url-pattern>/final_status_control</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>endOfGameS</servlet-name>
+        <servlet-class>game.EndOfGame</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>endOfGameS</servlet-name>
+        <url-pattern>/end_of_game</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>generalMapS</servlet-name>
+        <servlet-class>game.JinseiGameMap</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>generalMapS</servlet-name>
+        <url-pattern>/jinsei_game_map</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>rankingS</servlet-name>
+        <servlet-class>game.Ranking</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>rankingS</servlet-name>
+        <url-pattern>/ranking</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

@@ -1,0 +1,379 @@
+body {
+margin: -2%;
+padding: 0;
+background:#F5C9C6;
+}
+#jinsei_game_min {
+    margin-bottom: 2%;
+    margin-left: 4%;
+	}
+#menu {
+  width:800px;
+  padding:0;
+  margin-top:4%;
+  margin-right: auto;
+  margin-left: 25.5%;
+  list-style-type: none;
+}
+#menu li {
+  width:20%;
+  float:left;
+  padding:0;
+  margin:0;
+  text-align:center;
+}
+#menu li a {
+  width:auto;
+  color:#fff;
+  font-size:15px;
+  font-weight:bold;
+  text-shadow:0 -1px 0px #333,0 1px 0px #555;
+  padding:10px 0;
+  text-decoration:none;
+  display:block;
+  background:#666;
+  background-image: -moz-linear-gradient(top, #888 0%, #777 50%, #666 50%, #777 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #888), color-stop(0.50, #777), color-stop(0.50, #666), color-stop(1, #777));
+  border-left:1px solid #444;
+  box-shadow: 1px 0px 0px rgba(225,225,225,0.3) inset,
+			 -1px 0px 0px rgba(225,225,225,0.3) inset,
+			  0px 1px 1px rgba(0,0,0,0.1) inset,
+			  0px -1px 1px rgba(0,0,0,0.3) inset,
+			  0px 1px 3px #666;
+}
+#menu li:first-child a{
+  border-left:0px;
+  border-radius:5px 0 0 5px;
+  border-left:0;
+  box-shadow:-1px 0px 0px rgba(225,225,225,0.3) inset,
+			  0px 1px 1px rgba(0,0,0,0.1) inset,
+			  0px -1px 1px rgba(0,0,0,0.3) inset,
+			  0px 1px 3px #666;
+}
+#menu li:last-child a{
+  border-radius:0 5px 5px 0;
+  box-shadow: 1px 0px 0px rgba(225,225,225,0.3) inset,
+			  0px 1px 1px rgba(0,0,0,0.1) inset,
+			  0px -1px 1px rgba(0,0,0,0.3) inset,
+			  0px 1px 3px #666;
+}
+#menu li a:hover {
+  background:#555;
+  background-image: -moz-linear-gradient(top, #555 0%, #444 50%, #333 50%, #444 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #555), color-stop(0.50, #444), color-stop(0.50, #333), color-stop(1, #444));
+  box-shadow: 1px 0px 0px rgba(225,225,225,0) inset,
+			 -1px 0px 0px rgba(225,225,225,0) inset,
+			  0px 1px 1px rgba(0,0,0,0.1) inset,
+			  0px -1px 1px rgba(0,0,0,0.3) inset,
+			  0px 1px 3px #666;
+}
+.main_table1{
+    font-size : 150% ;
+    padding : 0.1em 0.5em ;
+    border : solid 1px #b3b3b3 ;
+    border-top : solid 1px #717171 ;
+    border-bottom : solid 1px #e0e0e0 ;
+    box-shadow : 0 1px 2px rgba(100, 100, 100, 0.3)inset ;
+    background:#FFF;
+    background-size: cover;
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:contain;
+    background-image:url(./img/office.png);
+}
+.main_table2{
+    font-size : 150% ;
+    padding : 0.1em 0.5em ;
+    border : solid 1px #b3b3b3 ;
+    border-top : solid 1px #717171 ;
+    border-bottom : solid 1px #e0e0e0 ;
+    box-shadow : 0 1px 2px rgba(100, 100, 100, 0.3)inset ;
+    background:#FFF;
+    background-size: cover;
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:contain;
+    background-image:url(./img/room_living.png);
+}
+.main_table3{
+    font-size : 150% ;
+    padding : 0.1em 0.5em ;
+    border : solid 1px #b3b3b3 ;
+    border-top : solid 1px #717171 ;
+    border-bottom : solid 1px #e0e0e0 ;
+    box-shadow : 0 1px 2px rgba(100, 100, 100, 0.3)inset ;
+    background:#FFF;
+    background-size: cover;
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:contain;
+    background-image:url(./img/tatami.png);
+}
+.main_table4{
+    font-size : 150% ;
+    padding : 0.1em 0.5em ;
+    border : solid 1px #b3b3b3 ;
+    border-top : solid 1px #717171 ;
+    border-bottom : solid 1px #e0e0e0 ;
+    box-shadow : 0 1px 2px rgba(100, 100, 100, 0.3)inset ;
+    background:#FFF;
+    background-size: cover;
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:contain;
+    background-image:url(./img/bg_city_bad_chian.jpg);
+}
+.main_table5{
+    font-size : 150% ;
+    padding : 0.1em 0.5em ;
+    border : solid 1px #b3b3b3 ;
+    border-top : solid 1px #717171 ;
+    border-bottom : solid 1px #e0e0e0 ;
+    box-shadow : 0 1px 2px rgba(100, 100, 100, 0.3)inset ;
+    background:#FFF;
+    background-size: cover;
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:contain;
+    background-image:url(./img/office_clean.png);
+}
+.main_table6{
+    font-size : 150% ;
+    padding : 0.1em 0.5em ;
+    border : solid 1px #b3b3b3 ;
+    border-top : solid 1px #717171 ;
+    border-bottom : solid 1px #e0e0e0 ;
+    box-shadow : 0 1px 2px rgba(100, 100, 100, 0.3)inset ;
+    background:#FFF;
+    background-size: cover;
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:contain;
+    background-image:url(./img/oshiro.jpg);
+}
+.main_table7{
+    font-size : 150% ;
+    padding : 0.1em 0.5em ;
+    border : solid 1px #b3b3b3 ;
+    border-top : solid 1px #717171 ;
+    border-bottom : solid 1px #e0e0e0 ;
+    box-shadow : 0 1px 2px rgba(100, 100, 100, 0.3)inset ;
+    background:#FFF;
+    background-size: cover;
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */
+    background-position:center center;                     /* 画像の表示位置を指定  */
+    background-size:contain;
+    background-image:url(./img/sabaku.jpg);
+}
+.box26 {
+    position: absolute;
+    top:22%;
+    left:14%;
+    width:200px;
+    height:45px;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: black;
+    font-weight: bold;
+}
+.box26 p {
+    margin: 0;
+    padding: 10px;
+    text-align:center;
+
+}
+.box27 {
+    position: absolute;
+    top:22%;
+    left:33%;
+    width:200px;
+    height:45px;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box27 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: black;
+    font-weight: bold;
+}
+.box27 p {
+    margin: 0;
+    padding: 10px;
+    text-align:center
+}
+.box28 {
+    position: absolute;
+    top:22%;
+    left:52%;
+    width:200px;
+    height:45px;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: black;
+    font-weight: bold;
+}
+.box28 p {
+    margin: 0;
+    padding: 10px;
+    text-align:center
+}
+.reroll{
+	position:relative;
+	left:25%;
+	margin-top:20%;
+    border: 0px;
+}
+img.reroll:hover{
+	/*opacity:0.5;*/
+	cursor: pointer;
+}
+img.reroll:active{
+
+	position: relative;
+	top: 3px;
+}
+.balloon {
+  position: absolute; /* 三角の位置を固定するために設定 */
+  left: 57.5%;
+  top: 40%;
+  width: 80px; /* 幅 */
+  margin: 0 auto 40px; /* 上 左右 下のマージン */
+  padding: 5px; /* ふきだし内の余白 */
+  background: #e91e63; /* 背景色 */
+  text-align: center; /* テキストの揃え */
+  font-family: '游ゴシック', 'Yu Gothic', 'sans-serif';
+  font-weight: bold;
+  color: #fff;
+}
+.balloon::after {
+  content: '';
+  border: 8px solid transparent;
+  border-top-color: #e91e63;
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  margin-left: -8px;
+}
+.jump {
+  animation: 0.5s jump infinite alternate linear;
+}
+@keyframes jump {
+  to { transform: transtateY(0); }
+  from { transform: translateY(4px); }
+}
+
+.box10 {
+	position:absolute;
+	top:77%;
+	width:210px;
+	left:52.5%;
+    color: black;
+    background: #e4fcff;/*背景色*/
+    border-top: solid 6px #1dc1d6;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+}
+.box10 p {
+
+	font-size:22;
+    margin: 0;
+    padding: 3%;
+}
+/*蜊�岼陦ｨ遉ｺ*/
+.cp_pricetable3 *, .cp_pricetable3 *:before, .cp_pricetable3 *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.cp_pricetable3 {
+	position:absolute;
+	valign:top;
+    left:-1%;
+	margin: 0 auto;
+	border-spacing: 1px 0;
+	border-collapse: separate;
+}
+.cp_pricetable3 td {
+	padding: 10px;
+}
+.cp_pricetable3 tr td {
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: left;
+	border: none;
+}
+.cp_pricetable3 tr:first-child td {
+	border-radius: 0 0 0 0;
+	}
+.cp_pricetable3 tr:last-child td {
+	border-radius: 0 0 0 0;
+}
+.cp_pricetable3 tr:nth-child(2n+1) td.group1 {
+	background: #8cd9bc;
+}
+.cp_pricetable3 tr:nth-child(2n+0) td.group1 {
+	background: #c3e4d8;
+}
+.cp_pricetable3 tr:nth-child(2n+1) td.group2 {
+	background: #e91e63;
+}
+.cp_pricetable3 tr:nth-child(2n+0) td.group2 {
+	background: #e91e63;
+}
+.cp_pricetable3 tr:nth-child(2n+1) td.group3 {
+	background: #a9bce2;
+}
+.cp_pricetable3 tr:nth-child(2n+0) td.group3 {
+	background: #d7e1f4;
+}
+.hito img{
+  position:absolute;
+  margin:-2%;
+  top:40%;
+  left:35%;
+  width:auto;
+  height:300;
+}
+.graph{
+  position:absolute;
+  top:33%;
+  left:14%;
+  width:200px;
+
+}
+.event_table{
+  position:absolute;
+  top:16.8%;
+  left:71.5%;
+  width:17.42%;
+}
+.solo{
+	position:absolute;
+	top:40%;
+	left:14%;
+}
