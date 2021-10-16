@@ -1,2 +1,14 @@
 # temporary files
 work
+
+# img
+img
+
+# bin
+bin
+
+# Java
+*.class
+*.war
+*.ear
+*.jar
